@@ -1,0 +1,21 @@
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\bin\Debug\PrjPlanificacionHoras.exe
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\bin\Debug\PrjPlanificacionHoras.pdb
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\bin\Debug\PrjPlanificacionHoras.xml
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.Form1.resources
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.Resources.resources
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.vbproj.GenerateResource.Cache
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.exe
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.xml
+C:\Users\dsistemas\AppData\Local\Temporary Projects\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.pdb
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.exe
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.xml
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.pdb
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\bin\Debug\PrjPlanificacionHoras.exe
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\bin\Debug\PrjPlanificacionHoras.pdb
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\bin\Debug\PrjPlanificacionHoras.xml
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\ResolveAssemblyReference.cache
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.Form1.resources
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.Resources.resources
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.vbproj.GenerateResource.Cache
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.Form2.resources
