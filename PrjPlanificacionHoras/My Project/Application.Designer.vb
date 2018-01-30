@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.PrjPlanificacionHoras.Form2
+            Me.MainForm = Global.PrjPlanificacionHoras.FRMCL_PlanificacionHoras_PF
         End Sub
     End Class
 End Namespace

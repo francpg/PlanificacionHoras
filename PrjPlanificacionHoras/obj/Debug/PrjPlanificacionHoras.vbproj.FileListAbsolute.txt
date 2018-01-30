@@ -18,4 +18,5 @@ E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\ResolveA
 E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.Form1.resources
 E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.Resources.resources
 E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.vbproj.GenerateResource.Cache
-E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.Form2.resources
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.FRMAR_Actividad_PF.resources
+E:\~fco\Proyectos\PrjPlanificacionHoras\PrjPlanificacionHoras\obj\Debug\PrjPlanificacionHoras.FRMCL_PlanificacionHoras_PF.resources
