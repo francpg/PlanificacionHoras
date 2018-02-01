@@ -40,6 +40,7 @@ Partial Class FRMAR_Actividad_PF
         Me.txtDetalle = New System.Windows.Forms.TextBox
         Me.btnGuardar = New System.Windows.Forms.Button
         Me.btnSalir = New System.Windows.Forms.Button
+        Me.ckbTerminada = New System.Windows.Forms.CheckBox
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.nudHoras, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -68,6 +69,7 @@ Partial Class FRMAR_Actividad_PF
         Me.TableLayoutPanel1.Controls.Add(Me.txtDetalle, 1, 4)
         Me.TableLayoutPanel1.Controls.Add(Me.btnGuardar, 3, 5)
         Me.TableLayoutPanel1.Controls.Add(Me.btnSalir, 4, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.ckbTerminada, 1, 5)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(3, 3)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
@@ -256,6 +258,17 @@ Partial Class FRMAR_Actividad_PF
         Me.btnSalir.TabIndex = 15
         Me.btnSalir.UseVisualStyleBackColor = True
         '
+        'ckbTerminada
+        '
+        Me.ckbTerminada.AutoSize = True
+        Me.ckbTerminada.Dock = System.Windows.Forms.DockStyle.Top
+        Me.ckbTerminada.Location = New System.Drawing.Point(73, 158)
+        Me.ckbTerminada.Name = "ckbTerminada"
+        Me.ckbTerminada.Size = New System.Drawing.Size(112, 17)
+        Me.ckbTerminada.TabIndex = 17
+        Me.ckbTerminada.Text = "Terminada"
+        Me.ckbTerminada.UseVisualStyleBackColor = True
+        '
         'FRMAR_Actividad_PF
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -292,4 +305,5 @@ Partial Class FRMAR_Actividad_PF
     Friend WithEvents txtDetalle As System.Windows.Forms.TextBox
     Friend WithEvents btnGuardar As System.Windows.Forms.Button
     Friend WithEvents btnSalir As System.Windows.Forms.Button
+    Friend WithEvents ckbTerminada As System.Windows.Forms.CheckBox
 End Class

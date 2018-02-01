@@ -212,4 +212,24 @@
     End Sub
 
     
+    Private Sub SP_AGREGAR_BORDE_DERECHA(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles TableLayoutPanel83.Paint
+        ControlPaint.DrawBorder(e.Graphics, _
+                                Me.TableLayoutPanel83.ClientRectangle, _
+                                Color.White, _
+                                0, _
+                                ButtonBorderStyle.None, _
+                                Color.White, _
+                                0, _
+                                ButtonBorderStyle.None, _
+                                Color.LightGray, _
+                                1, _
+                                ButtonBorderStyle.Solid, _
+                                Color.White, _
+                                0, _
+                                ButtonBorderStyle.None)
+    End Sub
+
+    'Private Sub TableLayoutPanel83_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles TableLayoutPanel83.Resize
+    '    Invalidate()
+    'End Sub
 End Class

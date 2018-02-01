@@ -33,11 +33,14 @@ Partial Class FRMCL_PlanificacionHoras_PF
         Me.lblTrabajadoresDias = New System.Windows.Forms.Label
         Me.TableLayoutPanel54 = New System.Windows.Forms.TableLayoutPanel
         Me.TableLayoutPanel83 = New System.Windows.Forms.TableLayoutPanel
+        Me.btnBuscar = New System.Windows.Forms.Button
         Me.calFechas = New System.Windows.Forms.MonthCalendar
         Me.Label6 = New System.Windows.Forms.Label
         Me.cklbGrupos = New System.Windows.Forms.CheckedListBox
         Me.btnConsultar = New System.Windows.Forms.Button
         Me.Label1 = New System.Windows.Forms.Label
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.txtBuscar = New System.Windows.Forms.TextBox
         Me.imlIconos = New System.Windows.Forms.ImageList(Me.components)
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer
         Me.pnlPrincipal.SuspendLayout()
@@ -153,16 +156,19 @@ Partial Class FRMCL_PlanificacionHoras_PF
         Me.TableLayoutPanel83.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
         Me.TableLayoutPanel83.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel83.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel83.Controls.Add(Me.btnBuscar, 0, 8)
         Me.TableLayoutPanel83.Controls.Add(Me.calFechas, 0, 3)
         Me.TableLayoutPanel83.Controls.Add(Me.Label6, 0, 0)
         Me.TableLayoutPanel83.Controls.Add(Me.cklbGrupos, 0, 1)
         Me.TableLayoutPanel83.Controls.Add(Me.btnConsultar, 0, 5)
         Me.TableLayoutPanel83.Controls.Add(Me.Label1, 0, 2)
+        Me.TableLayoutPanel83.Controls.Add(Me.Label2, 0, 7)
+        Me.TableLayoutPanel83.Controls.Add(Me.txtBuscar, 1, 7)
         Me.TableLayoutPanel83.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel83.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel83.Name = "TableLayoutPanel83"
         Me.TableLayoutPanel83.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.TableLayoutPanel83.RowCount = 7
+        Me.TableLayoutPanel83.RowCount = 9
         Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
         Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 120.0!))
         Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
@@ -170,8 +176,25 @@ Partial Class FRMCL_PlanificacionHoras_PF
         Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10.0!))
         Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
         Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel83.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel83.Size = New System.Drawing.Size(254, 602)
         Me.TableLayoutPanel83.TabIndex = 0
+        '
+        'btnBuscar
+        '
+        Me.btnBuscar.BackgroundImage = CType(resources.GetObject("btnBuscar.BackgroundImage"), System.Drawing.Image)
+        Me.btnBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnBuscar.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btnBuscar.FlatAppearance.BorderSize = 0
+        Me.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBuscar.Location = New System.Drawing.Point(3, 555)
+        Me.btnBuscar.Name = "btnBuscar"
+        Me.btnBuscar.Size = New System.Drawing.Size(44, 44)
+        Me.btnBuscar.TabIndex = 11
+        Me.btnBuscar.UseVisualStyleBackColor = True
         '
         'calFechas
         '
@@ -232,6 +255,26 @@ Partial Class FRMCL_PlanificacionHoras_PF
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Rango de fechas:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label2.Location = New System.Drawing.Point(3, 527)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(44, 25)
+        Me.Label2.TabIndex = 9
+        Me.Label2.Text = "Buscar:"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'txtBuscar
+        '
+        Me.TableLayoutPanel83.SetColumnSpan(Me.txtBuscar, 2)
+        Me.txtBuscar.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.txtBuscar.Location = New System.Drawing.Point(53, 530)
+        Me.txtBuscar.Name = "txtBuscar"
+        Me.txtBuscar.Size = New System.Drawing.Size(198, 20)
+        Me.txtBuscar.TabIndex = 10
         '
         'imlIconos
         '
@@ -299,5 +342,8 @@ Partial Class FRMCL_PlanificacionHoras_PF
     Friend WithEvents SplitContainer1 As System.Windows.Forms.SplitContainer
     Friend WithEvents calFechas As System.Windows.Forms.MonthCalendar
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents btnBuscar As System.Windows.Forms.Button
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents txtBuscar As System.Windows.Forms.TextBox
 
 End Class

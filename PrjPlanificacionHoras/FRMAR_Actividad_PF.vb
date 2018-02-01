@@ -10,9 +10,18 @@
         Me.DialogResult = Windows.Forms.DialogResult.OK
     End Sub
 
-    Private Sub FRMAR_Actividad_PF_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+    Public Sub New()
+
+        ' Llamada necesaria para el Diseñador de Windows Forms.
+        InitializeComponent()
+        
+        ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
         SP_OBTENER_TIPO()
         SP_LLENAR_TIPO()
+    End Sub
+
+    Private Sub FRMAR_Actividad_PF_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
     End Sub
 
     Private Sub SP_OBTENER_TIPO()

@@ -10,7 +10,7 @@
     Private tlpActividades As TableLayoutPanel
     Private Const horasMostradas As Integer = 10
     Private Const horasRegulares As Integer = 9
-    Private Const anchoHora As Integer = 36
+    Private Const anchoHora As Integer = 54
     Private Const alturaTrabajador As Integer = 84
 
     Private u As New Utiles
@@ -252,6 +252,7 @@
         dtActividades.Columns.Add("ACTIV_HORAS", System.Type.GetType("System.Double"))
         dtActividades.Columns.Add("ACTIV_TITULO", System.Type.GetType("System.String"))
         dtActividades.Columns.Add("ACTIV_DETALLE", System.Type.GetType("System.String"))
+        dtActividades.Columns.Add("ACTIV_TERMINADA", System.Type.GetType("System.Int32"))
 
         Dim filaNueva As DataRow
 
@@ -264,6 +265,7 @@
         filaNueva.Item("ACTIV_HORAS") = 9
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -275,6 +277,7 @@
         filaNueva.Item("ACTIV_HORAS") = 9
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -286,6 +289,7 @@
         filaNueva.Item("ACTIV_HORAS") = 3
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -297,6 +301,7 @@
         filaNueva.Item("ACTIV_HORAS") = 6
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -308,6 +313,7 @@
         filaNueva.Item("ACTIV_HORAS") = 4
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -319,6 +325,7 @@
         filaNueva.Item("ACTIV_HORAS") = 5
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -330,6 +337,7 @@
         filaNueva.Item("ACTIV_HORAS") = 3
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -341,6 +349,7 @@
         filaNueva.Item("ACTIV_HORAS") = 5
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -352,6 +361,7 @@
         filaNueva.Item("ACTIV_HORAS") = 3
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -363,6 +373,7 @@
         filaNueva.Item("ACTIV_HORAS") = 3
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -374,6 +385,7 @@
         filaNueva.Item("ACTIV_HORAS") = 3
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -385,6 +397,7 @@
         filaNueva.Item("ACTIV_HORAS") = 6
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -396,6 +409,7 @@
         filaNueva.Item("ACTIV_HORAS") = 5
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -407,6 +421,7 @@
         filaNueva.Item("ACTIV_HORAS") = 4
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -418,6 +433,7 @@
         filaNueva.Item("ACTIV_HORAS") = 5
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -429,6 +445,7 @@
         filaNueva.Item("ACTIV_HORAS") = 4
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -438,8 +455,9 @@
         filaNueva.Item("ACTIV_FECHA") = Today.AddDays(4)
         filaNueva.Item("ACTIV_NRO_ORDEN") = 1
         filaNueva.Item("ACTIV_HORAS") = 6
-        filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
+        filaNueva.Item("ACTIV_TITULO") = "ENCONTRAR 2018ENEOPV-5"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -451,6 +469,7 @@
         filaNueva.Item("ACTIV_HORAS") = 4
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -462,6 +481,7 @@
         filaNueva.Item("ACTIV_HORAS") = 5
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -473,6 +493,7 @@
         filaNueva.Item("ACTIV_HORAS") = 3
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -484,6 +505,7 @@
         filaNueva.Item("ACTIV_HORAS") = 3
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -495,6 +517,7 @@
         filaNueva.Item("ACTIV_HORAS") = 6
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -506,6 +529,7 @@
         filaNueva.Item("ACTIV_HORAS") = 4
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -517,6 +541,7 @@
         filaNueva.Item("ACTIV_HORAS") = 3
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
         filaNueva = dtActividades.NewRow
@@ -528,6 +553,7 @@
         filaNueva.Item("ACTIV_HORAS") = 6
         filaNueva.Item("ACTIV_TITULO") = "PRUEBA"
         filaNueva.Item("ACTIV_DETALLE") = "Estoy probando."
+        filaNueva.Item("ACTIV_TERMINADA") = 0
         dtActividades.Rows.Add(filaNueva)
 
     End Sub
@@ -622,9 +648,11 @@
                     Dim tlpDXT As New DiaTrabajador(listaTrabajadores.Item(i).id, _
                                                     listaDias.Item(j).fecha, _
                                                     horasMostradas, _
+                                                    False, _
                                                     u.SF_ACLARAR_COLOR(listaTrabajadores.Item(i).color, 30))
                     listaTrabajadores.Item(i).listaDias.Add(tlpDXT)
 
+                    AddHandler tlpDXT.Paint, AddressOf SP_PINTAR_BORDE_DERECHA
                     tlpActividades.Controls.Add(tlpDXT, j, i)
                 Next
             Next
@@ -650,14 +678,16 @@
                 Dim titulo As String = activ.Item("ACTIV_TITULO")
                 Dim detalle As String = activ.Item("ACTIV_DETALLE")
                 Dim tipo As Integer = activ.Item("ACTIV_TIPO")
-                Dim ref As String = ""
+                Dim idRef As Integer = 12345
+                Dim terminada As Boolean = activ.Item("ACTIV_TERMINADA")
+
                 Dim colorActiv As Color
 
                 Select Case tipo
-                    Case 1 : ref = "2017NOVOFR-67" : colorActiv = Color.FromArgb(255, 236, 153) 'BAJA POTENCIA
-                    Case 2 : ref = "2017NOVOFR-29" : colorActiv = Color.FromArgb(216, 245, 162) 'TRAFO
-                    Case 3 : ref = "2017NOVOFR-65" : colorActiv = Color.FromArgb(165, 216, 255) 'ALTA POTENCIA
-                    Case 4 : ref = "2017SEPOPV-89" : colorActiv = Color.FromArgb(255, 216, 168) 'SOLUCIONES
+                    Case 1 : colorActiv = Color.FromArgb(255, 236, 153) 'BAJA POTENCIA
+                    Case 2 : colorActiv = Color.FromArgb(216, 245, 162) 'TRAFO
+                    Case 3 : colorActiv = Color.FromArgb(165, 216, 255) 'ALTA POTENCIA
+                    Case 4 : colorActiv = Color.FromArgb(255, 216, 168) 'SOLUCIONES
                 End Select
 
                 If fecha < fechaInicio Or fecha > fechaFin Then Continue For
@@ -669,8 +699,10 @@
 
                 Dim tlpDXT As DiaTrabajador = tlpActividades.GetControlFromPosition(col, fil)
 
-                Dim tlpActiv As New Actividad(idT, fecha, nroOrden, tipo, horas, titulo, detalle, ref, colorActiv, imlIconos.Images.Item("editar"))
+                Dim tlpActiv As New Actividad(idT, fecha, nroOrden, tipo, idRef, horas, titulo, detalle, terminada, colorActiv, imlIconos.Images.Item("editar"))
                 AddHandler tlpActiv.btnEditar.Click, AddressOf SP_EDITAR_ACTIVIDAD
+
+                tlpDXT.listaActividades.Add(tlpActiv)
 
                 tlpDXT.Controls.Add(tlpActiv, tlpDXT.horasOcupadas, 0)
                 tlpDXT.SetColumnSpan(tlpActiv, horas)
@@ -738,6 +770,15 @@
         Return -1
     End Function
 
+    Private Function SF_OBTENER_INDICE_DIA(ByVal fecha As Date) As Integer
+        For i As Integer = 0 To listaDias.Count - 1
+            If listaDias.Item(i).fecha = fecha Then
+                Return i
+            End If
+        Next
+        Return -1
+    End Function
+
     Private Function SF_OBTENER_COLOR_GRUPO(ByVal GRUPO_ID As Integer) As Color
         For Each fila As DataRow In dtGrupos.Rows
             If fila.Item("GRUPO_ID") = GRUPO_ID Then
@@ -797,18 +838,88 @@
             filaNueva.Item("ID_TRABAJADOR") = tlpDXT.idTrabajador
             filaNueva.Item("ACTIV_FECHA") = tlpDXT.fecha
             filaNueva.Item("ACTIV_NRO_ORDEN") = tlpDXT.cantActivs
-            filaNueva.Item("ID_REF") = "12345"
             filaNueva.Item("ACTIV_TIPO") = objFrm.cboTipo.SelectedValue
+            filaNueva.Item("ID_REF") = "12345"
             filaNueva.Item("ACTIV_HORAS") = objFrm.nudHoras.Value
             filaNueva.Item("ACTIV_TITULO") = objFrm.txtTitulo.Text
             filaNueva.Item("ACTIV_DETALLE") = objFrm.txtDetalle.Text
+            filaNueva.Item("ACTIV_TERMINADA") = objFrm.ckbTerminada.Checked
             dtActividades.Rows.Add(filaNueva)
 
             tlpDXT.Controls.Clear()
 
-            SP_GENERAR_DIASXTRABAJADOR()
-            SP_GENERAR_ACTIVIDADES()
-            SP_GENERAR_BOTONES_AGREGAR()
+            Dim DV As DataView = dtActividades.DefaultView
+            Dim filtro As String = "ID_TRABAJADOR = " & tlpDXT.idTrabajador & " AND " & _
+                                   "ACTIV_FECHA = '" & tlpDXT.fecha.ToShortDateString & "'"
+            DV.RowFilter = filtro
+
+            For Each activ As DataRow In DV.ToTable.Rows
+                Dim idT As Integer = activ.Item("ID_TRABAJADOR")
+                Dim fecha As Date = activ.Item("ACTIV_FECHA")
+                Dim nroOrden As Integer = activ.Item("ACTIV_NRO_ORDEN")
+                Dim horas As Integer = activ.Item("ACTIV_HORAS")
+                Dim titulo As String = activ.Item("ACTIV_TITULO")
+                Dim detalle As String = activ.Item("ACTIV_DETALLE")
+                Dim tipo As Integer = activ.Item("ACTIV_TIPO")
+                Dim idRef As Integer = 12345
+                Dim terminada As Boolean = activ.Item("ACTIV_TERMINADA")
+
+                Dim colorActiv As Color
+
+                Select Case tipo
+                    Case 1 : colorActiv = Color.FromArgb(255, 236, 153) 'BAJA POTENCIA
+                    Case 2 : colorActiv = Color.FromArgb(216, 245, 162) 'TRAFO
+                    Case 3 : colorActiv = Color.FromArgb(165, 216, 255) 'ALTA POTENCIA
+                    Case 4 : colorActiv = Color.FromArgb(255, 216, 168) 'SOLUCIONES
+                End Select
+
+                If fecha < fechaInicio Or fecha > fechaFin Then Continue For
+
+                Dim tlpActiv As New Actividad(idT, fecha, nroOrden, tipo, idRef, horas, titulo, detalle, terminada, colorActiv, imlIconos.Images.Item("editar"))
+                AddHandler tlpActiv.btnEditar.Click, AddressOf SP_EDITAR_ACTIVIDAD
+
+                tlpDXT.listaActividades.Add(tlpActiv)
+                tlpDXT.Controls.Add(tlpActiv, tlpDXT.horasOcupadas, 0)
+                tlpDXT.SetColumnSpan(tlpActiv, horas)
+            Next
+
+            Dim horasOcupadas As Integer = 0
+
+            For Each ctrl As Control In tlpDXT.Controls
+                horasOcupadas += tlpDXT.GetColumnSpan(ctrl)
+            Next
+
+            If horasOcupadas >= horasMostradas Then Exit Sub
+
+            Dim colorLetra As Color
+
+            If horasOcupadas >= horasRegulares Then
+                colorLetra = u.SF_ACLARAR_COLOR(tlpDXT.BackColor, 15)
+            Else
+                colorLetra = u.SF_ACLARAR_COLOR(tlpDXT.BackColor, 65)
+            End If
+
+            btnAgregar = New Button
+            With btnAgregar
+                .Text = "+"
+                .Font = New Font(lblTrabajadoresDias.Font.FontFamily, 24, FontStyle.Regular)
+                .Margin = New Padding(3)
+                .TextAlign = ContentAlignment.MiddleCenter
+                .Dock = DockStyle.Fill
+                .BackColor = Color.Transparent
+                .ForeColor = colorLetra
+                .FlatStyle = FlatStyle.Flat
+                .FlatAppearance.MouseOverBackColor = Color.FromArgb(50, 250, 250, 250)
+                .FlatAppearance.MouseDownBackColor = Color.FromArgb(90, 255, 255, 255)
+                .FlatAppearance.BorderSize = 0
+                .Cursor = Cursors.Hand
+            End With
+
+            AddHandler btnAgregar.Click, AddressOf SP_AGREGAR_ACTIVIDAD
+
+            tlpDXT.Controls.Add(btnAgregar, horasOcupadas, 0)
+            tlpDXT.SetColumnSpan(btnAgregar, horasMostradas - horasOcupadas)
+
         Catch ex As Exception
             MsgBox(ex.Message, MsgBoxStyle.Critical, "Mensaje del Sistema")
         End Try
@@ -823,13 +934,15 @@
             Dim t As Trabajador = listaTrabajadores(SF_OBTENER_INDICE_TRABAJADOR(tlpActiv.idT))
 
             Dim objFrm As New FRMAR_Actividad_PF
+
             objFrm.txtTrabajador.Text = t.nombre
             objFrm.dtpFecha.Value = tlpActiv.fecha
-            objFrm.txtReferencia.Text = tlpActiv.ref
+            objFrm.txtReferencia.Text = "SE OBTENDRÁ DE: " & tlpActiv.idRef
             objFrm.cboTipo.SelectedValue = tlpActiv.tipo
             objFrm.nudHoras.Value = tlpActiv.horas
             objFrm.txtTitulo.Text = tlpActiv.titulo
             objFrm.txtDetalle.Text = tlpActiv.detalle
+            objFrm.ckbTerminada.Checked = tlpActiv.terminada
 
             Dim DR As DialogResult = objFrm.ShowDialog()
 
@@ -854,6 +967,7 @@
                 filaEditar.Item("ACTIV_HORAS") = objFrm.nudHoras.Value
                 filaEditar.Item("ACTIV_TITULO") = objFrm.txtTitulo.Text
                 filaEditar.Item("ACTIV_DETALLE") = objFrm.txtDetalle.Text
+                filaEditar.Item("ACTIV_TERMINADA") = objFrm.ckbTerminada.Checked
             End If
 
             SP_GENERAR_DIASXTRABAJADOR()
@@ -1006,6 +1120,26 @@
             End Set
         End Property
 
+        Private _terminada As Boolean
+        Public Property terminada() As Boolean
+            Get
+                Return _terminada
+            End Get
+            Set(ByVal value As Boolean)
+                _terminada = value
+            End Set
+        End Property
+
+        Private _listaActividades As List(Of Actividad)
+        Public Property listaActividades() As List(Of Actividad)
+            Get
+                Return _listaActividades
+            End Get
+            Set(ByVal value As List(Of Actividad))
+                _listaActividades = value
+            End Set
+        End Property
+
         Private _color As Color
         Public Property color() As Color
             Get
@@ -1020,13 +1154,15 @@
             MyBase.New()
         End Sub
 
-        Public Sub New(ByVal idTrabajador As Integer, ByVal fecha As Date, ByVal horas As Integer, ByVal color As Color)
+        Public Sub New(ByVal idTrabajador As Integer, ByVal fecha As Date, ByVal horas As Integer, ByVal terminada As Boolean, ByVal color As Color)
             MyBase.New()
 
             _idTrabajador = idTrabajador
             _fecha = fecha
             _horas = horas
+            _terminada = terminada
             _color = color
+            _listaActividades = New List(Of Actividad)
 
             For i As Integer = 0 To horas - 1
                 Me.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, anchoHora))
@@ -1149,13 +1285,13 @@
             End Set
         End Property
 
-        Private _ref As String
-        Public Property ref() As String
+        Private _idRef As Integer
+        Public Property idRef() As Integer
             Get
-                Return _ref
+                Return _idRef
             End Get
-            Set(ByVal value As String)
-                _ref = value
+            Set(ByVal value As Integer)
+                _idRef = value
             End Set
         End Property
 
@@ -1166,6 +1302,16 @@
             End Get
             Set(ByVal value As String)
                 _detalle = value
+            End Set
+        End Property
+
+        Private _terminada As Boolean
+        Public Property terminada() As Boolean
+            Get
+                Return _terminada
+            End Get
+            Set(ByVal value As Boolean)
+                _terminada = value
             End Set
         End Property
 
@@ -1183,22 +1329,23 @@
             MyBase.New()
         End Sub
 
-        Public Sub New(ByVal idT As Integer, ByVal fecha As Date, ByVal nroOrden As Integer, ByVal tipo As Integer, ByVal horas As Integer, ByVal titulo As String, ByVal detalle As String, ByVal ref As String, ByVal color As Color, ByVal imgEditar As Image)
+        Public Sub New(ByVal idT As Integer, ByVal fecha As Date, ByVal nroOrden As Integer, ByVal tipo As Integer, ByVal idRef As Integer, ByVal horas As Integer, ByVal titulo As String, ByVal detalle As String, ByVal terminada As Boolean, ByVal color As Color, ByVal imgEditar As Image)
             MyBase.New()
             _idT = idT
             _fecha = fecha
+            _nroOrden = nroOrden
+            _tipo = tipo
+            _idRef = idRef
             _horas = horas
             _titulo = titulo
-            _ref = ref
-            _color = color
-            _nroOrden = nroOrden
             _detalle = detalle
-            _tipo = tipo
+            _terminada = terminada
+            _color = color
 
             Me.BackColor = color
             Me.Margin = New Padding(3)
             Me.Dock = DockStyle.Fill
-            Me.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 35))
+            Me.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 25))
             Me.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100))
             Me.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 25))
             Me.RowStyles.Add(New RowStyle(SizeType.Absolute, 23))
@@ -1207,8 +1354,9 @@
 
             Dim lblRef As New Label
             With lblRef
-                .Text = ref
+                .Text = "SE OBTENDRÁ"
                 .Margin = New Padding(0)
+                .Padding = New Padding(0, 5, 0, 5)
                 .Dock = DockStyle.Fill
                 .TextAlign = ContentAlignment.MiddleCenter
                 .ForeColor = color.White
@@ -1232,13 +1380,26 @@
             Dim lblHoras As New Label
             With lblHoras
                 .Text = horas & "h"
-                .Margin = New Padding(3)
+                .Margin = New Padding(0)
+                .Padding = New Padding(0)
                 .Dock = DockStyle.Bottom
                 .TextAlign = ContentAlignment.MiddleLeft
                 .ForeColor = u.SF_OSCURECER_COLOR(Me.BackColor, 60)
             End With
             Me.Controls.Add(lblHoras, 0, 2)
             Me.SetColumnSpan(lblHoras, 1)
+
+            Dim lblTerminada As New Label
+            With lblTerminada
+                .Text = IIf(terminada, "TERMINADA", "")
+                .Margin = New Padding(0)
+                .Padding = New Padding(0, 5, 0, 5)
+                .Dock = DockStyle.Bottom
+                .TextAlign = ContentAlignment.MiddleCenter
+                .ForeColor = u.SF_OSCURECER_COLOR(Me.BackColor, 60)
+            End With
+            Me.Controls.Add(lblTerminada, 1, 2)
+            Me.SetColumnSpan(lblTerminada, 1)
 
             _btnEditar = New Button
             With _btnEditar
@@ -1291,6 +1452,57 @@
         End Function
     End Class
 
+    Private Sub SP_PINTAR_BORDE_DERECHA(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs)
+        Dim tlpDXT As DiaTrabajador = TryCast(sender, DiaTrabajador)
+        ControlPaint.DrawBorder(e.Graphics, _
+                                tlpDXT.ClientRectangle, _
+                                Color.White, _
+                                0, _
+                                ButtonBorderStyle.None, _
+                                Color.White, _
+                                0, _
+                                ButtonBorderStyle.None, _
+                                Color.FromArgb(95, 134, 142, 150), _
+                                1, _
+                                ButtonBorderStyle.Solid, _
+                                Color.White, _
+                                0, _
+                                ButtonBorderStyle.None)
+    End Sub
+
+    Private Sub btnBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar.Click
+        If txtBuscar.Text.Equals("") Then Exit Sub
+
+        For Each t As Trabajador In listaTrabajadores
+            For Each d As DiaTrabajador In t.listaDias
+                For Each a As Actividad In d.listaActividades
+                    For Each ctrl As Control In a.Controls
+                        If ctrl.GetType().ToString = "System.Windows.Forms.Label" Then
+                            Dim lblAux As Label = TryCast(ctrl, Label)
+                            If lblAux.Text.ToUpper Like "*" & txtBuscar.Text.ToUpper & "*" Then
+                                pnlActividades.VerticalScroll.Value = SF_OBTENER_INDICE_TRABAJADOR(t.id) * alturaTrabajador
+                                pnlActividades.HorizontalScroll.Value = SF_OBTENER_INDICE_DIA(d.fecha) * horasMostradas * anchoHora
+                                pnlActividades.AutoScroll = True 'para que se actualizen los scroll.
+                                Exit Sub
+                            End If
+                        End If
+                    Next
+                Next
+            Next
+        Next
+
+        MsgBox("No se encontró el texto ingresado.", MsgBoxStyle.Information, "Mensaje del Sistema")
+    End Sub
+
+    Private Sub txtBuscar_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtBuscar.KeyPress
+        If e.KeyChar = ChrW(Keys.Enter) Then
+            btnBuscar_Click(Nothing, Nothing)
+        End If
+    End Sub
+
+    Private Sub txtBuscar_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtBuscar.TextChanged
+
+    End Sub
 End Class
 
 
